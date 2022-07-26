@@ -1,0 +1,3 @@
+if __name__ == "__main__":
+    # Utilize essa área para testes com print
+    ...
