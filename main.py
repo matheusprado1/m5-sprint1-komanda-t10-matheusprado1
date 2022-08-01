@@ -1,6 +1,8 @@
+from restaurant.screen import initial_screen
+
 
 def main():
-    print("OK")
+    initial_screen()
 
 
 if __name__ == '__main__':
