@@ -1,4 +1,4 @@
-from .management import get_item, add_item_to_tab, calculate_tab
+from management.tab_handler import add_item_to_tab
 
 from datetime import date, time, datetime, timedelta, timezone
 
@@ -17,7 +17,7 @@ def initial_screen():
     continue_looping = True
 
     data = read_json(FILEPATH)
-    new_item = {"id":35, "name": "CHURROS DO M5", "price": 5.0}
+    new_item = {"id": len(data) +1, "name": "CHURROS DO M5", "price": 5.0}
     data.append(new_item)
     write_json(FILEPATH, data)
 
