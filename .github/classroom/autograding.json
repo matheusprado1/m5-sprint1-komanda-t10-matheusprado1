@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Komanda Tests",
+      "setup": "sudo -H pip3 install freezegun",
+      "run": "python -m unittest -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
