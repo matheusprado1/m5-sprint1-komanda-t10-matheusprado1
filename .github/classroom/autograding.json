@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Komanda Tests",
-      "setup": "sudo -H pip3 install freezegun",
+      "setup": "pip install freezegun",
       "run": "python -m unittest -v",
       "input": "",
       "output": "",
